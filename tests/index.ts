@@ -1,4 +1,4 @@
-import walk, { BaselineTarget } from '../src'
+import { walkTypes, walkSymbols } from '../src'
 
-console.log(walk(`const a: number = 1;`, BaselineTarget.types))
-console.log(walk(`const a: number = 1;`, BaselineTarget.symbols))
+console.log(walkTypes(`const a: number = 1;`))
+console.log(walkSymbols(`const a: number = 1;`))
