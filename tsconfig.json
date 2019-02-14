@@ -1,7 +1,16 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
+    "strict": true,
     "target": "es5",
     "moduleResolution": "node",
-    "module": "commonjs"
-  }
+    "module": "esnext",
+    "declaration": true,
+    "outDir": "./dist",
+    "declarationDir": "./dist/types",
+    "stripInternal": true
+  },
+  "include": [
+    "src/"
+  ]
 }
