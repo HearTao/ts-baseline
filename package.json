@@ -1,0 +1,26 @@
+{
+  "name": "ts-baseline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --config ./prettier.json --write ./src/**/* ./tests/**/* "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HearTao/ts-baseline.git"
+  },
+  "author": "kingwl",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/HearTao/ts-baseline/issues"
+  },
+  "homepage": "https://github.com/HearTao/ts-baseline",
+  "dependencies": {
+    "@types/node": "^11.9.3",
+    "@types/tmp": "^0.0.34",
+    "prettier": "^1.16.4",
+    "tmp": "^0.0.33",
+    "typescript": "^3.3.3"
+  }
+}
