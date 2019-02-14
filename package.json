@@ -1,6 +1,6 @@
 {
   "name": "ts-baseline",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A tools for generate typescript types and symbols",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
