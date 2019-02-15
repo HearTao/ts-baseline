@@ -33,7 +33,7 @@ const a: number = 1;
 ```ts
 import { walkSymbols } from 'ts-baseline'
 
-const baseline = walkSymbols(`const foo = "your code here"`)
+const baseline = walkSymbols(`const a: number = 1;`)
 ```
 
 result: 
