@@ -1,5 +1,3 @@
-/// <reference path="./types/typescript.d.ts"/>
-
 import * as ts from 'typescript'
 
 interface TypeWriterTypeResult {
